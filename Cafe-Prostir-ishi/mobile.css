@@ -1,0 +1,80 @@
+/* Стилі для першої частини */
+#main2 {
+  padding: 20px;
+}
+
+.intro2, .text {
+  margin-bottom: 20px;
+}
+
+/* Стилі для другої частини */
+#about_us, #order {
+  padding: 20px;
+}
+
+.daun {
+  height: 50px; /* Змініть це значення відповідно до вашого дизайну */
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#cardFields {
+  display: none;
+}
+
+#confirmOrderBtn {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Стилі для футера */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.social-links a {
+  display: block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Додаткові стилі для мобільного вигляду */
+@media screen and (max-width: 768px) {
+  #main2, #about_us, #order {
+    padding: 15px;
+  }
+  
+  .footer {
+    padding: 15px 0;
+  }
+}
